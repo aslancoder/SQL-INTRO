@@ -1,9 +1,10 @@
+CREATE DATABASE Department
 USE Department
 
 CREATE TABLE Employeee(
   Id int primary key identity,
   [Fullname] nvarchar(255) NOT NULL,
-  Age int NOT NULL CHECK (Age>0),
+  Age tinyint NOT NULL CHECK (Age>0),
   Email nvarchar(50) UNIQUE,
   Salary float NOT NULL CHECK (Salary >300 AND Salary <2000)
 )
@@ -30,3 +31,5 @@ VALUES ('Aslan Bslandd', 'cdnsdnsdn@gmail.com',600),
 		('Ismayil Akifov', 'hufsahhk@gmail.com', 750)
 
 	SELECT * FROM Employeee
+	
+	SELECT Fullname,Email,Salary FROM Employee ORDER BY Salary DESC
