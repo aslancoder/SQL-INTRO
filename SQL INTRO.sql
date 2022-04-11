@@ -31,5 +31,5 @@ VALUES ('Aslan Bslandd', 'cdnsdnsdn@gmail.com',600),
 		('Ismayil Akifov', 'hufsahhk@gmail.com', 750)
 
 	SELECT * FROM Employeee
-	
-	SELECT Fullname,Email,Salary FROM Employee ORDER BY Salary DESC
+
+SELECT Fullname,Email,Salary FROM Employee ORDER BY Salary DESC
