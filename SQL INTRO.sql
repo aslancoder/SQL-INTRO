@@ -24,7 +24,7 @@ VALUES ('Aslan Bslandd', 21, 'cdnsdnsdn@gmail.com',600),
 SELECT * FROM Employeee
 
 SELECT * FROM Employeee
-WHERE Salary >= 300 AND Salary <= 2000
+WHERE Salary >= 500 AND Salary <= 1500
 
 INSERT INTO Employeee([Fullname], Email, Salary)
 VALUES ('Aslan Bslandd', 'cdnsdnsdn@gmail.com',600),
